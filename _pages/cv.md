@@ -10,17 +10,19 @@ redirect_from:
 {% include base_path %}
 
 
-Work experience
+Senior Scientist - National Physical Laboratory
 ======
-* June 2024: Senior Scientist
-  * National Physical Laboratory
+* June 2024 - Present
 
-* January 2023: Higher Scientist
-  * National Physical Laboratory
+Higher Scientist - National Physical Laboratory
+======
+* January 2023 - June 2024
+* National Physical Laboratory
 
-* January 2020: Postdoctoral Research Scientist
-  * Columbia University
-  * Supervisor: Professor David Reichman
+Postdoctoral Research Scientist - Columbia University
+======
+* January 2020 - January 2023
+* Supervisor: Professor David Reichman
 
 Education
 ======
@@ -30,6 +32,7 @@ Education
   
 Publications
 ======
+Under Construction
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
