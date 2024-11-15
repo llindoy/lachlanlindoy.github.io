@@ -9,10 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Physical and Theoretical Chemistry, University of Oxford, 2020 
-* B.Sc. (Advanced) (Honours), University of Sydney, 2015
 
 Work experience
 ======
@@ -25,17 +21,25 @@ Work experience
 * January 2020: Postdoctoral Research Scientist
   * Columbia University
   * Supervisor: Professor David Reichman
-  
-Skills
+
+Education
 ======
-
-
+* Ph.D in Physical and Theoretical Chemistry, University of Oxford, 2020 
+  * Thesis: New Developments in Open Quantum System Dynamics
+* B.Sc. (Advanced) (Honours), University of Sydney, 2015
+  
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+<!---
   
+Skills
+======
+
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -47,4 +51,8 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  
+-->
+
+  
   
